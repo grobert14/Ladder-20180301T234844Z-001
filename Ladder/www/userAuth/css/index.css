@@ -1,0 +1,557 @@
+
+
+@media (min-width: 768px) {
+	.homeBody
+	{
+		padding: 3%;
+		text-align: right;
+	}
+
+	.loginForm, .registrationForm, .errorPage, .homePage, .statsPage {
+		background-color: #373737;
+		width: 75%;
+		margin-left: 7.5%;
+		padding: 5%;
+		text-align: center;
+		font-size: 25px;
+		color: white;
+		/*box-shadow: 5px 7px 5px #888888;*/
+	}
+
+  .ladderPage
+  {
+	  background-color: #373737;
+	  width: 100%;
+	  text-align: center;
+	  font-size: 25px;
+	  color: white;
+	  padding: 5%;
+	  margin-top: 2%;
+  }
+
+	.registrationForm
+	{
+		margin-top: 0;
+		padding-top: 3%;
+		padding-bottom: 0;
+		/*box-shadow: 5px 0px 5px #888888;*/
+	}
+
+	.userInfo {
+		text-align: center;
+		width: 80%;
+		height: 8%;
+		border-radius: 5px;
+		border-color: #373737;
+		font-size: x-large;
+	}
+
+	.loginSubmit  {
+		width: 75%;
+		height: 6%;
+		border-radius: 5px;
+		border-color: transparent;
+		background-color: #47ba82;
+		color: white;
+		font-weight: bold;
+		font-size: large;
+	}
+
+	.loginSubmit:hover {
+		background-color: #47a972;
+	}
+
+	.navButtons
+	{
+		width: 100%;
+		text-align: center;
+
+	}
+	.goToLogin
+	{
+		width: 20%;
+		height: 10%;
+		font-size: x-large;
+		color: white;
+		border-color: transparent;
+		background-color: #47ba82;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+	.goToLogin:hover
+	{
+		background-color: #47a972;
+	}
+
+	.logout
+	{
+		color: white;
+		border-color: transparent;
+		background-color: #ba4741;
+	}
+
+	.logout:hover
+	{
+		background-color: #a4453f;
+		border-color: #a4453f;
+	}
+
+	.goToRegister
+	{
+		width: 20%;
+		height: 10%;
+		font-size: x-large;
+		color: white;
+		border-color: transparent;
+		background-color: #739aca;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+	.goToRegister:hover
+	{
+		background-color: #6087b5;
+	}
+
+	.register {
+		width: 75%;
+		height: 6%;
+		border-radius: 5px;
+		border-color: transparent;
+		background-color: #739aca;
+		color: white;
+		font-weight: bold;
+		font-size: large;
+	}
+
+	.register:hover {
+		background-color: #6087b5;
+	}
+
+	.backButton {
+		width: 75%;
+		height: 6%;
+		border-radius: 5px;
+		border-color: transparent;
+		background-color: #bababa;
+		color: white;
+		font-weight: bold;
+	}
+
+	.backButton:hover {
+		background-color: #a8a8a8;
+	}
+
+	.backArrow
+	{
+		display: none;
+	}
+
+	.topNav
+	{
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 2%;
+		position: fixed;
+		text-align: left;
+		color: white;
+	}
+
+	.toHomePage
+	{
+		background-color: transparent;
+		border: transparent;
+		color: white;
+	}
+
+	.user
+	{
+		color: white;
+	}
+
+	.ladderNav
+	{
+		top: 1%;
+		left: 0;
+		width: 99%;
+		position: fixed;
+		text-align: right;
+	}
+
+	.ladderError
+	{
+		text-align: center;
+	}
+
+	.challengeButton
+	{
+		background-color: #a8ffbe
+	}
+
+	.challengeButton:hover
+	{
+		background-color: #7ac990
+	}
+
+	.statsButton
+	{
+		top: 1%;
+		left: 1%;
+		position: fixed;
+	}
+
+	.backToLadder
+	{
+		top: 1%;
+		left: 1%;
+		position: fixed;
+	}
+
+
+}
+
+@media (max-width: 768px)
+{
+	.loginForm, .registrationForm, .errorPage, .homePage, .ladderPage, .statsPage {
+		background-color: #373737;
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		color: white;
+		padding-top: 5%;
+	}
+
+	.registrationForm, .ladderPage
+	{
+		margin-bottom: 40%;
+	}
+
+	.homePage
+	{
+		margin-bottom: 50%;
+	}
+
+	.userInfo {
+		text-align: center;
+		width: 100%;
+		height: 12%;
+		border-right: 0px;
+		border-left: 0px;
+		border-bottom: 0px;
+		border-color: #373737;
+		font-size: x-large;
+	}
+
+	.loginSubmit {
+		bottom: 12%;
+		left: 0;
+		position: fixed;
+		width: 100%;
+		height: 12%;
+
+		border-color: transparent;
+		background-color: #47ba82;
+		color: white;
+		font-weight: bold;
+		font-size: large;
+	}
+
+	.loginSubmit:hover {
+		background-color: #47a972;
+	}
+
+	.register {
+		bottom: 0;
+		left:0;
+		position: fixed;
+		width: 100%;
+		height: 12%;
+
+		border-color: transparent;
+		background-color: #739aca;
+		color: white;
+		font-weight: bold;
+		font-size: large;
+	}
+
+	.register:hover {
+		background-color: #6087b5;
+	}
+
+	.backButton {
+		display: none;
+		/*width: 10%;*/
+		/*font-size: x-large;*/
+		/*border: transparent;*/
+		/*margin-top: 2%;*/
+
+		/*background-color: transparent;*/
+		/*color: white;*/
+		/*font-weight: bold;*/
+		/*position: fixed;*/
+		/*top: 5px;*/
+		/*left: 5px;*/
+	}
+
+	.backButton:hover {
+		border-color: #a8a8a8;
+	}
+
+	.backArrow
+	{
+		top: 2%;
+		left: 2%;
+		position: fixed;
+		color: white;
+		background-color: transparent;
+		border: none;
+	}
+
+	.goToLogin
+	{
+		width: 100%;
+		position: fixed;
+		bottom: 12%;
+		left: 0;
+		height: 12%;
+		font-size: x-large;
+		color: white;
+		border-color: transparent;
+		background-color: #47ba82;
+		font-weight: bold;
+	}
+
+	.goToLogin:hover
+	{
+		background-color: #47a972;
+	}
+
+	.logout
+	{
+
+		color: white;
+		border-color: transparent;
+		background-color: #ba4741;
+
+	}
+
+	.logout:hover
+	{
+		background-color: #a4453f;
+		border-color: #a4453f;
+	}
+
+	.goToRegister
+	{
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 12%;
+		font-size: x-large;
+		color: white;
+		border-color: transparent;
+		background-color: #739aca;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+	.goToRegister:hover
+	{
+		background-color: #6087b5;
+	}
+
+	.topNav
+	{
+		width: 100%;
+		top: 2%;
+		right: 2%;
+		position: fixed;
+		text-align: right;
+		color: white;
+	}
+
+	.toHomePage
+	{
+		background-color: transparent;
+		border: transparent;
+		color: white;
+	}
+
+	.ladderNav
+	{
+		top: 0;
+		left: 0;
+		width: 100%;
+		position: fixed;
+		text-align: right;
+	}
+
+	.accountModalButton
+	{
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		position: fixed;
+		border-radius: 0;
+		border: none;
+		height: 7%;
+	}
+
+	.backToLadder
+	{
+		bottom: 7%;
+		left: 0;
+		width: 100%;
+		position: fixed;
+		border-radius: 0;
+		border: none;
+		height: 7%;
+
+	}
+
+	.statsButton
+	{
+		position: fixed;
+		bottom: 7%;
+		width: 100%;
+		left: 0;
+		height: 7%;
+	}
+
+	.ladderTable
+	{
+		margin-bottom: 25%;
+	}
+
+	.logoutBigWindow
+	{
+		display: none;
+	}
+
+	.statsHead>tr>th
+	{
+		font-size: xx-small;
+	}
+
+	tr{
+		width: 100%;
+	}
+}
+
+html
+{
+	background-color: #373737;
+}
+body
+{
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #373737;
+}
+
+button
+{
+	cursor:pointer;
+}
+
+.ladderTable
+{
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.table>thead>tr>th
+{
+	text-align: center;
+}
+
+tr
+{
+	color: white;
+}
+
+#status
+{
+	display: none;
+}
+
+.homePage>p
+{
+	text-align: left;
+}
+
+tr:hover
+{
+	background-color: #656565;
+
+}
+
+.modal-title, .modal-body
+{
+	color: black;
+}
+
+.challengeModalButton, .challengeButton:active
+{
+	background-color: rgba(255, 63, 39, 0.75);
+	border: none;
+}
+
+.challengeModalButton:hover
+{
+	background-color: rgba(203, 51, 33, 0.75);
+}
+
+.sendChallenge
+{
+	background-color: #47a972;
+}
+
+.acceptancePending
+{
+	background-color: transparent;
+	border:none;
+	padding: 0;
+}
+
+.acceptancePending:hover
+{
+	background-color: transparent;
+}
+
+.gamePlayedButton
+{
+	border-color: transparent;
+	border-radius: 5px;
+	background-color: #33c997;
+	color: white;
+	font-size: medium;
+}
+
+.gamePlayedButton:hover
+{
+	background-color: #259570;
+}
+
+.rankTD
+{
+	text-align: left;
+}
+
+.finalSubmit
+{
+	border: none;
+	border-radius: 0;
+}
+hr
+{
+	width: 75%;
+	color: #d8dadc;
+}
+
